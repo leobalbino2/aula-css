@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
 
-<head>
-<meta charset="UTF-8">
-<title> Document </title>
-</head>
+    <style>
+      * {
+        /* O asterisco aplica o CSS em TUDO!!
+               Usamos ele para fazer o reset(limpar)
+               O css padrão do navegador e aplicar em um único
+               */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* Define o tamanho de um elemento*/
+        line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-<body></body>
+      p {
+        font-size: 14px;
+        color: #000;
+      }
 
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-weight: bold;
+        color: rgb(
+          201,
+          1,
+          1
+        ) !important; /* important geralmente é quase nunca utilizado. Último recurso*/
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      /* o container centraliza a página*/
+      .container {
+        padding-left: 20%;
+        padding-right: 20%;
+      }
+
+      .card {
+        border: 1px #cccccc solid; /* define a cor da borda*/
+        padding: 15px; 
+        border-radius: 20px;
+        margin: 10px auto;
+        box-shadow: 0 4px 8px rgba (0, 0, 0, 0.1);
+      }
+
+      .tamanho-50 {
+        width: 49%;
+        max-width: 49%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Fatec Jahu - CSS Inline</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magnam,
+        molestiae, perspiciatis nostrum odit quos quibusdam deleniti reiciendis
+        voluptatibus aliquid mollitia, obcaecati officiis omnis repellendus vero
+        quo aperiam ipsam ipsum.
+      </p>
+
+      <div class="card tamanho-50">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores cum
+        culpa fugit deleniti nam animi eos rerum ipsa qui alias id voluptatem
+        laboriosam hic pariatur sunt, praesentium laudantium sapiente?
+        Temporibus?
+      </div>
+      <div class="card tamanho-50">
+        njdqwndawkdmlaksmdzmxclkmxcvklxckjbncvbmdfmsokdpkw
+      </div>
+    </div>
+  </body>
 </html>
